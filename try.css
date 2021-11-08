@@ -1,0 +1,91 @@
+body {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.O6N_dk5f9vEuqL5gAFJ1OgHaFj&pid=Api&P=0&w=211&h=159");
+}
+
+ul {
+    position: -webkit-sticky;
+    /* áp dụng với Safari */
+    position: sticky;
+    list-style-type: none;
+    overflow: hidden;
+    /* Khi chiều cao của box không đủ chứa text, thì text bị tràn sẽ được dấu đi. */
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ff0000;
+    color: #ff;
+    font-weight: bold;
+}
+
+.content {
+    margin-left: 10%;
+    float: left;
+    width: 70%;
+    height: auto;
+}
+
+.section {
+    height: auto;
+}
+
+.aside {
+    border-color: red;
+    float: left;
+    width: 20%;
+    height: auto;
+}
+
+.footer {
+    background-color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+    width: 110%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+    margin: 15px;
+}
+
+form {
+    background-color: green;
+    margin: 50px auto;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
+
+button submit {
+    margin-top: 20px;
+    width: 80px;
+    height: 40px;
+    background: #ffffff;
+    color: blue;
+}
+
+.button {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
